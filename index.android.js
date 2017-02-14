@@ -12,6 +12,9 @@ import {
   View
 } from 'react-native';
 
+
+import App from './src/App';
+
 export default class RNNYT extends Component {
   render() {
     return (
@@ -50,4 +53,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('RNNYT', () => RNNYT);
+AppRegistry.registerComponent('RNNYT', () => App);
